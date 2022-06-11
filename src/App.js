@@ -30,3 +30,8 @@ const App = () => {
 };
 
 export default App;
+
+let obj = {"id":0,
+"title":"HTML/CSS - 1",
+"objectives":["HTML Anatomy","HTML Structure","CSS Anatomy","CSS Selectors","CSS Box Model","CSS Inheritance, Cascade and Specificity"],
+"coursework":["Learn how to create our own webpage","Completion of the Flexbox Froggy game"]}

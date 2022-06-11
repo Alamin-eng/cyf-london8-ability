@@ -9,7 +9,10 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
     font-family: 'Roboto Mono', monospace;
-  
+    background-image: url(./3581675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 /* code {
@@ -18,7 +21,7 @@ body {
 } */
 h1 {
   font-size: 4em;
-  color: rgb(150, 1, 225);
+  color: rgb(245, 168, 151);
   font-family: 'Rubik', sans-serif;
 }
 ul {
@@ -39,12 +42,12 @@ li {
   /* grid-template-columns: repeat(4, auto); */
   grid-template-rows: auto;
   grid-template-columns: 1fr;
-  background:rgb(193, 240, 159);
+  /* background:rgb(0, 210, 171); */
   grid-gap: 1em;
   margin-bottom: 0;
 }
 .footer {
-  background-color: rgb(150, 1, 225);
+  background-color: rgb(25, 22, 22);
   color: #fff;
   font-weight: bold;
 }
@@ -53,7 +56,7 @@ li {
   justify-content: space-evenly;
 }
 .mainh2 {
-  background-color: darkcyan;
+  background-color: rgb(22, 20, 27);
   color: azure;
   padding: 0.5em;
 }
@@ -69,7 +72,7 @@ li {
 }
 
 .module-button {
-  background: linear-gradient(180deg, rgb(252, 47, 47) 0%, rgb(194, 23, 14) 50%, rgb(147, 4, 4) 100%);
+  background: linear-gradient(180deg, rgb(226, 26, 26) 0%, rgb(170, 14, 6) 50%, rgb(131, 4, 4) 100%);
   border: none;
   border-radius: 8px;
   color: rgb(255, 255, 255);
@@ -78,24 +81,39 @@ li {
   font-weight: bolder;
 }
 .module-button:hover{
-  background: rgb(228, 35, 35);
-  transition: .8s ease-in-out;
+  background:  rgb(180, 0, 0);
+  transition: .5s ease-in-out;
   
 }
 .container h3{
-  color:rgb(147, 9, 174)
+  color:rgb(255, 123, 0);
+  font-weight: bolder;
+  letter-spacing: 1vw;
 }
 .objectives{
   background: linear-gradient(90deg, rgb(250, 187, 69) 20%, transparent 100%);
+  font-weight: 600;
 }
 .courseWork{
   background: linear-gradient(270deg, rgb(250, 187, 69) 20%, transparent 100%);
   display: flex;
   justify-content: flex-end;
   padding-right: 4%;
+  font-weight: 600;
+}
+.objectiveHr{
+  position: relative;
+  margin-right: 40%;
+}
+.courseHr {
+  position: relative;
+  margin-left: 40%;
 }
 @media screen and (max-width: 900px) {
   .header-container {
     grid-template-columns: repeat(2, auto);
+  }
+  .objectives, .courseWork{
+    background: rgb(250, 187, 69,75%);
   }
 }
